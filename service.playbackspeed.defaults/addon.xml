@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.playbackspeed.defaults" name="Playback Speed Defaults" version="0.1.0" provider-name="Francesco Noacco">
+    <requires>
+        <!-- Kodi 21 ships xbmc.python 3.0.1, Kodi 22 ships 3.1.x (backwards compatible down to 3.0.0) -->
+        <import addon="xbmc.python" version="3.0.1"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.python.script" library="script.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context.py">
+                <label>32117</label>
+                <visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season) | String.IsEqual(ListItem.DBType,episode)</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Default playback speed per series, library, or globally</summary>
+        <description lang="en_GB">Sets the playback speed when a video starts. The most specific default wins: series, then library (e.g. separate Jellyfin libraries for anime and TV shows), then the global default. You can still change the speed of a single episode while it plays, and optionally save it as the series default.[CR][CR]Speed changes need "Sync playback to display" (Settings → Player → Videos). The add-on can turn it on for you.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>

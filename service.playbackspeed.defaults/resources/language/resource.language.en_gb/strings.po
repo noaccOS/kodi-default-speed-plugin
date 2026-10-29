@@ -1,0 +1,181 @@
+# Kodi Media Center language file
+# Addon Name: Playback Speed Defaults
+# Addon id: service.playbackspeed.defaults
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+
+msgctxt "#32000"
+msgid "General"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Apply default playback speeds"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Default speed for all videos"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Automatically enable \"Sync playback to display\""
+msgstr ""
+
+msgctxt "#32004"
+msgid "Kodi can only change the playback speed when \"Sync playback to display\" (Settings → Player → Videos) is on."
+msgstr ""
+
+msgctxt "#32005"
+msgid "Debug logging"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Show a notification when a default speed is applied"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Speeds above 1.5x need <maxtempo> in advancedsettings.xml. <maxtempo>2.1</maxtempo> allows up to 2.0x on Kodi 21 and 22. Higher values than Kodi allows are lowered to the fastest allowed speed."
+msgstr ""
+
+msgctxt "#32030"
+msgid "Series"
+msgstr ""
+
+msgctxt "#32031"
+msgid "Manage series defaults…"
+msgstr ""
+
+msgctxt "#32032"
+msgid "Offer to save manual speed changes as the series default"
+msgstr ""
+
+msgctxt "#32033"
+msgid "When you change the speed while watching an episode, ask on stop whether to keep it as the series default."
+msgstr ""
+
+msgctxt "#32040"
+msgid "{:.2f}x"
+msgstr ""
+
+msgctxt "#32050"
+msgid "Libraries"
+msgstr ""
+
+msgctxt "#32051"
+msgid "Manage library defaults…"
+msgstr ""
+
+msgctxt "#32052"
+msgid "Give a library its own default, e.g. a separate anime library. Jellyfin libraries are matched by the tag Jellyfin for Kodi adds to every synced item; Kodi sources by the file path. A library default beats the global default; a series default beats both."
+msgstr ""
+
+msgctxt "#32100"
+msgid "Playback speed"
+msgstr ""
+
+msgctxt "#32101"
+msgid "Also save {0} as the default for…"
+msgstr ""
+
+msgctxt "#32102"
+msgid "Nothing else, just this video"
+msgstr ""
+
+msgctxt "#32103"
+msgid "Series: {0}"
+msgstr ""
+
+msgctxt "#32107"
+msgid "All videos"
+msgstr ""
+
+msgctxt "#32108"
+msgid "{0} is above Kodi's limit, using {1}. Raise <maxtempo> in advancedsettings.xml."
+msgstr ""
+
+msgctxt "#32109"
+msgid "Turn on \"Sync playback to display\" to change the playback speed"
+msgstr ""
+
+msgctxt "#32110"
+msgid "Remove default"
+msgstr ""
+
+msgctxt "#32111"
+msgid "Add series…"
+msgstr ""
+
+msgctxt "#32114"
+msgid "You watched {0} at {1}. Save it as the series default?"
+msgstr ""
+
+msgctxt "#32115"
+msgid "Saved {0} as the default for {1}"
+msgstr ""
+
+msgctxt "#32116"
+msgid "Default speed: {0}"
+msgstr ""
+
+msgctxt "#32117"
+msgid "Default playback speed…"
+msgstr ""
+
+msgctxt "#32118"
+msgid "{0} (current)"
+msgstr ""
+
+msgctxt "#32119"
+msgid "Kodi did not accept {0}"
+msgstr ""
+
+msgctxt "#32120"
+msgid "Removed the default for {0}"
+msgstr ""
+
+msgctxt "#32121"
+msgid "Default"
+msgstr ""
+
+msgctxt "#32122"
+msgid "Could not save the setting, see the log"
+msgstr ""
+
+msgctxt "#32128"
+msgid "Enter a title…"
+msgstr ""
+
+msgctxt "#32129"
+msgid "Series title"
+msgstr ""
+
+msgctxt "#32130"
+msgid "Series defaults"
+msgstr ""
+
+msgctxt "#32140"
+msgid "{0} (library tag)"
+msgstr ""
+
+msgctxt "#32141"
+msgid "{0} (Kodi source)"
+msgstr ""
+
+msgctxt "#32142"
+msgid "Library: {0}"
+msgstr ""
+
+msgctxt "#32143"
+msgid "Add library…"
+msgstr ""
+
+msgctxt "#32144"
+msgid "No library tags or video sources found"
+msgstr ""
+
+msgctxt "#32145"
+msgid "Library defaults"
+msgstr ""
+
